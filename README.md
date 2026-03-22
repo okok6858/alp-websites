@@ -1,31 +1,32 @@
 # ALP landing pages
 
-Seven static landing pages—one folder per domain. Each folder is a complete site (upload or connect the folder as the **publish directory** for that hostname).
+Seven static landing pages—one folder per brand/domain. Each folder is a complete site: set your host’s **publish directory** to that folder name.
 
-## Connect to GitHub
+## Brands → folders
 
-From this directory:
+| Brand | Folder (deploy root) |
+|-------|----------------------|
+| Supreme Assets | `supremeassets` |
+| MIBS | `mibs` |
+| Sepharma | `sepharma` |
+| Amber Energy | `amber-energy` |
+| Amber Invest | `amber-invest` |
+| Amber Swiss Holding | `amberswissholding` |
+| Amber Trading | `amber-trading` |
+
+## GitHub
 
 ```bash
-git remote add origin https://github.com/YOUR_USER/YOUR_REPO.git
-git branch -M main
+git remote add origin https://github.com/okok6858/REPO_NAME.git
 git push -u origin main
 ```
 
-Create the empty repo on GitHub first (no README), then run the commands above.
+Or create and push with GitHub CLI (from this directory):
 
-## Deploy one folder per domain
-
-Point each domain’s project to **only** that site’s folder, for example:
-
-| Domain (example) | Publish directory |
-|-------------------|-------------------|
-| `example-a.com`   | `site-01`         |
-| `example-b.com`   | `site-02`         |
-| …                 | …                 |
-
-Works with Netlify, Cloudflare Pages, Vercel, GitHub Pages (one Pages site per repo per folder via workflow or separate projects), etc.
+```bash
+gh repo create REPO_NAME --public --source=. --remote=origin --push
+```
 
 ## Customize
 
-Edit `index.html` and `styles.css` inside each `site-0X` folder. Replace titles, copy, colors in `:root`, and add images under that folder (e.g. `images/`).
+Edit `index.html` and `styles.css` in each folder. Point the **Get in touch** link (`href`) to mail, a form, or your main site.
