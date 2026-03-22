@@ -5,23 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Amber Invest — rental real estate and property management for investors and portfolio owners."
+      content="Amber Invest — rental real estate and property management for investors."
     />
     <title>Amber Invest — Rentals &amp; property management</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Real estate rental &amp; management</p>
-      <h1>Amber Invest</h1>
-      <p class="lede">
-        Built for owners who treat rentals as investments: we place reliable tenants, optimize occupancy and cash flow,
-        and run day-to-day management—reports, repairs, and regulations included—across your properties.
-      </p>
-      <a class="cta" href="#">Discuss your portfolio</a>
-    </main>
-    <footer class="foot">
-      <span>© <span id="y"></span> Amber Invest</span>
+    <header class="site-header">
+      <div class="header-inner">
+      <a href="#top" class="logo">Amber Invest</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Real estate rental &amp; management</p>
+        <h1>Rentals as investments, managed end to end</h1>
+        <p class="hero-lede">
+          We help owners treat property as a portfolio: tenant placement, rent collection, reporting, maintenance, and
+          regulatory basics—so you can focus on strategy while operations stay under control.
+        </p>
+        <a class="btn" href="#contact">Discuss your portfolio</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Amber Invest works with landlords who want occupancy and cash flow without day-to-day noise. We document
+          decisions, track renewals, and coordinate vendors with clear scopes and budgets.
+        </p>
+        <p>
+          If you are acquiring, stabilizing, or scaling a rental footprint, we can align management with your investment
+          thesis. Start with a short introduction via the contact section.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          For investor relations, new mandates, or portfolio questions, use the channels below—replace placeholders before
+          launch.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <span class="value">—</span>
+          </li>
+          <li>
+            <span class="label">Office</span>
+            <span class="value">By appointment</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="copyright">© <span id="y"></span> Amber Invest</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();

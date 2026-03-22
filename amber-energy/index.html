@@ -5,23 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Amber Energy — real estate rentals and professional property management for quality homes and spaces."
+      content="Amber Energy — real estate rentals and professional property management."
     />
     <title>Amber Energy — Rentals &amp; property management</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Real estate rental &amp; management</p>
-      <h1>Amber Energy</h1>
-      <p class="lede">
-        We lease residential and commercial space and handle the full lifecycle: marketing, tenant screening, leases, rent
-        collection, maintenance, and compliance—so owners and residents both get a steady, well-run experience.
-      </p>
-      <a class="cta" href="#">Talk to us about your property</a>
-    </main>
-    <footer class="foot">
-      <span>© <span id="y"></span> Amber Energy</span>
+    <header class="site-header">
+      <div class="header-inner">
+      <a href="#top" class="logo">Amber Energy</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Real estate rental &amp; management</p>
+        <h1>Homes and space, professionally run</h1>
+        <p class="hero-lede">
+          We lease residential and commercial properties and manage them day to day—tenants, leases, rent, maintenance,
+          and compliance—so owners and residents get a calm, predictable experience.
+        </p>
+        <a class="btn" href="#contact">Talk to us</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Amber Energy focuses on well-maintained rentals and clear communication. From marketing a vacancy to handling
+          repairs, we keep processes transparent and timelines realistic.
+        </p>
+        <p>
+          Whether you own a single unit or a small portfolio, we align management with your goals: steady income,
+          responsible upkeep, and tenants who are treated fairly.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          Owners and tenants can reach us for listings, management proposals, or tenancy questions. Update the details
+          below with your real contact information.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <span class="value">—</span>
+          </li>
+          <li>
+            <span class="label">Office</span>
+            <span class="value">By appointment</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="copyright">© <span id="y"></span> Amber Energy</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();

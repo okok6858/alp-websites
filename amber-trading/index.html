@@ -5,24 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Amber Trading — real estate rentals, leasing, and property management for homes and business space."
+      content="Amber Trading — real estate rentals, leasing, and property management."
     />
     <title>Amber Trading — Rentals &amp; property management</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Real estate rental &amp; management</p>
-      <h1>Amber Trading</h1>
-      <p class="lede">
-        We connect landlords and tenants with clear lease deals and then stay involved: rent, renewals, maintenance
-        coordination, and building standards—whether you need a flat, a house, or commercial space under professional
-        management.
-      </p>
-      <a class="cta" href="#">Rent or list with us</a>
-    </main>
-    <footer class="foot">
-      <span>© <span id="y"></span> Amber Trading</span>
+    <header class="site-header">
+      <div class="header-inner">
+      <a href="#top" class="logo">Amber Trading</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Real estate rental &amp; management</p>
+        <h1>Lease it. Manage it. Keep it simple.</h1>
+        <p class="hero-lede">
+          We help landlords and tenants agree clear terms, then stay involved: renewals, rent, maintenance, and building
+          standards—for homes and commercial space under professional management.
+        </p>
+        <a class="btn" href="#contact">Rent or list with us</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Amber Trading sits at the intersection of deals and operations. We care about fair leases, realistic
+          timelines, and properties that stay fit for use over the long run.
+        </p>
+        <p>
+          Tenants looking for space and owners looking for hands-off management are both welcome. Introduce yourself
+          through the contact block and we will follow up.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          Listings, viewings, and management proposals—update email and phone here before you point your domain at this
+          site.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <span class="value">—</span>
+          </li>
+          <li>
+            <span class="label">Office</span>
+            <span class="value">By appointment</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="copyright">© <span id="y"></span> Amber Trading</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();

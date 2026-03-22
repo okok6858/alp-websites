@@ -5,23 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Amber Swiss Holding — rental real estate and professional property management for held assets."
+      content="Amber Swiss Holding — rental real estate and property management within our group."
     />
     <title>Amber Swiss Holding — Rentals &amp; property management</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Real estate rental &amp; management</p>
-      <h1>Amber Swiss Holding</h1>
-      <p class="lede">
-        We operate rental housing and commercial space held within our group: structured leasing, long-term tenant
-        relationships, and disciplined property management—from asset-level strategy to on-site upkeep and administration.
-      </p>
-      <a class="cta" href="#">Corporate enquiries</a>
-    </main>
-    <footer class="foot">
-      <span>© <span id="y"></span> Amber Swiss Holding</span>
+    <header class="site-header">
+      <div class="header-inner">
+      <a href="#top" class="logo">Amber Swiss Holding</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Real estate rental &amp; management</p>
+        <h1>Held real estate, operated with care</h1>
+        <p class="hero-lede">
+          We run rental housing and commercial space held within our group: structured leasing, long-term tenant
+          relationships, and disciplined property management from strategy to on-site administration.
+        </p>
+        <a class="btn" href="#contact">Corporate enquiries</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Amber Swiss Holding coordinates assets with an emphasis on governance, transparency, and sustainable
+          operations. Rental income and property condition are managed as part of a single, accountable framework.
+        </p>
+        <p>
+          For institutional partners, counterparties, or structured enquiries, please use the contact section. We route
+          messages to the appropriate internal team.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          Corporate and partnership enquiries only—replace the email and add your registered office details when you go
+          live.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <span class="value">—</span>
+          </li>
+          <li>
+            <span class="label">Office</span>
+            <span class="value">Switzerland — by appointment</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="copyright">© <span id="y"></span> Amber Swiss Holding</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();

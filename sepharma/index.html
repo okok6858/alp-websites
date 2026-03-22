@@ -3,19 +3,81 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Sepharma — official landing page." />
+    <meta
+      name="description"
+      content="Sepharma — pharmaceutical focus with a clear, professional presence and direct contact."
+    />
     <title>Sepharma</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Welcome</p>
-      <h1>Sepharma</h1>
-      <p class="lede">Official landing page. More information coming soon.</p>
-      <a class="cta" href="#">Get in touch</a>
-    </main>
-    <footer class="foot">
-      <span>© <span id="y"></span> Sepharma</span>
+    <header class="site-header">
+      <div class="header-inner">
+      <a href="#top" class="logo">Sepharma</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Pharmaceuticals</p>
+        <h1>Science-led, responsibly communicated</h1>
+        <p class="hero-lede">
+          Sepharma operates with attention to quality, compliance, and clarity. This landing page is intentionally simple:
+          an overview of who we are and a direct way to reach the right people.
+        </p>
+        <a class="btn" href="#contact">Contact us</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          We support work across the pharmaceutical value chain with a disciplined, ethical mindset. Our partners expect
+          rigour in how we plan, document, and execute.
+        </p>
+        <p>
+          For collaboration, media, or general enquiries, please use the contact section. We read every message and
+          route it to the appropriate team member.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          Replace the placeholder email and add your phone or registered office when you publish this site.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <span class="value">—</span>
+          </li>
+          <li>
+            <span class="label">Office</span>
+            <span class="value">By appointment</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="copyright">© <span id="y"></span> Sepharma</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();

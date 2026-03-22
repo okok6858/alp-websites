@@ -24,4 +24,4 @@ git push -u origin main
 
 ## Customize
 
-Edit `index.html` and `styles.css` in each folder. Point the **Get in touch** link (`href`) to mail, a form, or your main site.
+Each site is a white, minimal landing page: **header** (logo + nav), **hero**, **about**, **contact**, **footer**. Edit `index.html` for copy; swap `contact@example.com`, phone (`—`), and office lines. Shared layout styles live in each folder’s `styles.css` (copies of the same file).

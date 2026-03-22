@@ -3,19 +3,78 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="MIBS — official landing page." />
+    <meta name="description" content="MIBS — structured operations, clear delivery, and direct communication." />
     <title>MIBS</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Welcome</p>
-      <h1>MIBS</h1>
-      <p class="lede">Official landing page. More information coming soon.</p>
-      <a class="cta" href="#">Get in touch</a>
-    </main>
-    <footer class="foot">
-      <span>© <span id="y"></span> MIBS</span>
+    <header class="site-header">
+      <div class="header-inner">
+      <a href="#top" class="logo">MIBS</a>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Operations &amp; execution</p>
+        <h1>Reliable, straightforward delivery</h1>
+        <p class="hero-lede">
+          MIBS focuses on clear processes and accountable outcomes. We keep this page minimal so you can see who we are
+          and how to reach us—without noise or clutter.
+        </p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Our team works with clients who expect precision and discretion. We invest in relationships, documentation,
+          and follow-through so projects stay on track.
+        </p>
+        <p>
+          Whether you are starting a first conversation or returning after a pause, we are happy to hear from you. Use
+          the contact block below to connect.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          Send a note or call when you have a brief ready. Update the email and phone to your real details before launch.
+        </p>
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:contact@example.com">contact@example.com</a>
+          </li>
+          <li>
+            <span class="label">Phone</span>
+            <span class="value">—</span>
+          </li>
+          <li>
+            <span class="label">Office</span>
+            <span class="value">By appointment</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="copyright">© <span id="y"></span> MIBS</span>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </footer>
     <script>
       document.getElementById("y").textContent = new Date().getFullYear();
