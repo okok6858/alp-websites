@@ -16,15 +16,10 @@ Seven static landing pages—one folder per brand/domain. Each folder is a compl
 
 ## GitHub
 
+Remote: [github.com/okok6858/alp-websites](https://github.com/okok6858/alp-websites)
+
 ```bash
-git remote add origin https://github.com/okok6858/REPO_NAME.git
 git push -u origin main
-```
-
-Or create and push with GitHub CLI (from this directory):
-
-```bash
-gh repo create REPO_NAME --public --source=. --remote=origin --push
 ```
 
 ## Customize
