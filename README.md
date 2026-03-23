@@ -1,6 +1,6 @@
 # ALP landing pages
 
-Eight static landing pages—one folder per brand/domain. Each folder is a complete site: set your host’s **publish directory** to that folder name.
+Eight static landing pages, one folder per brand or domain. Each folder is a complete site: set your host’s **publish directory** to that folder name.
 
 ## Brands → folders
 
@@ -25,4 +25,4 @@ git push -u origin main
 
 ## Customize
 
-Each site is a white, minimal landing page: **header** (logo + nav), **hero**, **about**, **contact**, **footer**. Edit `index.html` for copy; adjust email, phone (`—`), and office lines per brand. Shared layout styles live in each folder’s `styles.css` (copies of the same file).
+Each site is a white, minimal landing page: **header** (logo + nav), **hero**, **about**, **contact**, **footer**. Edit `index.html` for copy; adjust email, phone, and office lines per brand. Shared layout styles live in each folder’s `styles.css` (copies of the same file).
