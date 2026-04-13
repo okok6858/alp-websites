@@ -22,66 +22,79 @@
       </div>
     </header>
 
-    <section class="hero-mosaic" id="top" aria-label="Intro">
-      <div class="hero-mosaic__main" id="properties">
-        <img
-          src="images/hero-modern-apartments.png"
-          alt="Modern apartment buildings and clear sky"
-          width="1600"
-          height="900"
-          decoding="async"
-          fetchpriority="high"
-        />
-        <div class="hero-mosaic__overlay">
-          <p class="eyebrow eyebrow--on-dark">Real estate · Transactions · Rentals</p>
-          <h1>We buy, sell, renovate, and rent property, with discipline end to end</h1>
-          <p class="hero-lede hero-lede--on-dark">
-            Supreme Assets works across the full lifecycle of real estate: sourcing acquisitions and exits, planning and
-            delivering renovations that improve value and usability, and operating rental stock for stable, long-term
-            income. Our approach is direct, with clear terms, careful underwriting, and execution you can rely on whether you
-            are a seller, a buyer, a capital partner, or a tenant looking for a well-managed home or workspace.
-          </p>
-          <a class="btn btn--light" href="#contact">Contact us</a>
-        </div>
-      </div>
-      <div class="hero-mosaic__cell">
-        <img
-          src="images/office-facade-bw.png"
-          alt="Modern building facade in black and white"
-          width="1200"
-          height="900"
-          decoding="async"
-        />
-      </div>
-      <div class="hero-mosaic__cell">
-        <img
-          src="images/estate-driveway.png"
-          alt="Renovated estate house and driveway"
-          width="1200"
-          height="900"
-          decoding="async"
-        />
-      </div>
-      <div class="hero-mosaic__cell">
-        <img
-          src="images/residential-complex.png"
-          alt="Contemporary residential buildings and landscaping"
-          width="1200"
-          height="900"
-          decoding="async"
-        />
+    <section class="hero-text" id="top">
+      <div class="wrap-full">
+        <p class="eyebrow">Real estate · Transactions · Rentals</p>
+        <h1 class="hero-title">
+          We buy, sell, renovate, and rent property, with discipline end to end
+        </h1>
+        <p class="hero-lede">
+          Supreme Assets works across the full lifecycle of real estate: sourcing acquisitions and exits, planning and
+          delivering renovations that improve value and usability, and operating rental stock for stable, long-term
+          income. Our approach is direct, with clear terms, careful underwriting, and execution you can rely on whether you
+          are a seller, a buyer, a capital partner, or a tenant looking for a well-managed home or workspace.
+        </p>
+        <a class="btn" href="#contact">Contact us</a>
       </div>
     </section>
 
-    <section class="about" id="about">
-      <div class="container prose">
+    <section class="feature-cluster" id="properties" aria-label="Selected property photography">
+      <div class="feature-cluster__inner">
+        <figure class="feature-cluster__primary">
+          <img
+            src="images/hero-modern-apartments.png"
+            alt="Modern apartment buildings and clear sky"
+            width="1600"
+            height="900"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <figcaption class="visually-hidden">Urban residential</figcaption>
+        </figure>
+        <figure class="feature-cluster__secondary">
+          <img
+            src="images/office-facade-bw.png"
+            alt="Modern building facade in black and white"
+            width="1200"
+            height="900"
+            decoding="async"
+          />
+        </figure>
+        <figure class="feature-cluster__tertiary">
+          <img
+            src="images/residential-complex.png"
+            alt="Contemporary residential buildings and landscaping"
+            width="1200"
+            height="900"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="band-image" aria-hidden="true">
+      <img
+        src="images/estate-driveway.png"
+        alt=""
+        width="1800"
+        height="800"
+        decoding="async"
+      />
+    </section>
+
+    <section class="about about--intro" id="about">
+      <div class="wrap-full">
         <h2>About</h2>
-        <p>
+        <p class="text-lead">
           Supreme Assets is active in residential and commercial real estate. We combine transaction experience with
           hands-on project oversight so that each asset is understood not only on paper but in terms of physical
           condition, local market dynamics, and realistic timelines for works and lettings.
         </p>
+      </div>
+    </section>
 
+    <section class="split-panel split-panel--media-right">
+      <div class="split-panel__text wrap-full">
         <h3>Buying &amp; selling</h3>
         <p>
           We acquire properties where we see a credible path to a better outcome, through repositioning, improved
@@ -90,7 +103,29 @@
           and the story of the building. If you own a property you wish to sell, or you are searching for a specific type
           of asset, we welcome a confidential conversation about mandate, structure, and timing.
         </p>
+      </div>
+      <div class="split-panel__media">
+        <img
+          src="images/office-facade-bw.png"
+          alt=""
+          width="1200"
+          height="900"
+          decoding="async"
+        />
+      </div>
+    </section>
 
+    <section class="split-panel split-panel--media-left">
+      <div class="split-panel__media">
+        <img
+          src="images/hero-modern-apartments.png"
+          alt=""
+          width="1600"
+          height="900"
+          decoding="async"
+        />
+      </div>
+      <div class="split-panel__text wrap-full">
         <h3>Renovation &amp; value creation</h3>
         <p>
           Many of our projects include refurbishment or more substantial renovation. We scope works with budgets and
@@ -98,7 +133,11 @@
           energy performance, layout, and longevity, not cosmetic-only fixes that age quickly. The goal is a property
           that is easier to rent or sell, safer for occupants, and simpler to maintain over the years ahead.
         </p>
+      </div>
+    </section>
 
+    <section class="split-panel split-panel--media-right">
+      <div class="split-panel__text wrap-full">
         <h3>Rentals &amp; leasing</h3>
         <p>
           Alongside trading, we hold and lease real estate. Tenants benefit from clear lease terms, responsive
@@ -106,7 +145,20 @@
           Landlords and partners who work with us get reporting that ties occupancy, rent roll, and capex back to the
           original business plan, so decisions stay grounded in numbers as well as operational reality.
         </p>
+      </div>
+      <div class="split-panel__media">
+        <img
+          src="images/residential-complex.png"
+          alt=""
+          width="1200"
+          height="900"
+          decoding="async"
+        />
+      </div>
+    </section>
 
+    <section class="about about--closing">
+      <div class="wrap-full">
         <p>
           Whether your interest is a one-off sale, a joint venture on a renovation, or a longer-term rental
           relationship, we prefer plain language and steady follow-through. Reach out using the contact details below
@@ -116,7 +168,7 @@
     </section>
 
     <section class="contact" id="contact">
-      <div class="container prose">
+      <div class="wrap-full">
         <h2>Contact</h2>
         <p class="contact-intro">
           For acquisitions, disposals, renovation projects, or rental enquiries, including lettings and
