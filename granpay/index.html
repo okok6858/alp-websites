@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Granpay: multi-currency accounts, cross-border payments, FX, and digital payment infrastructure for global businesses."
+      content="Granpay: software and solutions for financial platforms, multi-currency and FX tooling, and secure product engineering."
     />
-    <title>Granpay: Payments &amp; multi-currency</title>
+    <title>Granpay: Software for financial platforms</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -15,6 +15,7 @@
       <div class="header-inner">
         <a href="#top" class="logo">Granpay</a>
         <nav aria-label="Primary">
+          <a href="#services">Services</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -22,43 +23,105 @@
     </header>
 
     <section class="hero" id="top">
-      <div class="container">
-        <p class="eyebrow">Payments · FX · Global accounts</p>
-        <h1>One place for multi-currency accounts and cross-border payments</h1>
+      <div class="wrap-full">
+        <p class="eyebrow">Software · Platforms · Infrastructure</p>
+        <h1>We build technology for teams that run financial and transaction platforms</h1>
         <p class="hero-lede">
-          Move money across borders with competitive FX, hold and convert in many currencies, and keep operations on one
-          clear stack, whether you run treasury for a trading company, a holding structure, or a digital business with
-          customers worldwide.
+          Granpay focuses on engineering, product delivery, and integration: multi-currency and FX logic, ledger and
+          workflow tooling, APIs, and the kind of resilient software operators need when they scale a regulated stack.
+          We are a build partner, not a consumer-facing money brand, so language stays precise and expectations stay
+          aligned with what your licences and risk model allow.
         </p>
         <a class="btn" href="#contact">Get in touch</a>
       </div>
     </section>
 
+    <section class="services" id="services">
+      <div class="wrap-full">
+        <h2>Services</h2>
+        <p class="services-intro">
+          We scope each engagement in writing: deliverables, interfaces, environments, and who owns production support
+          after go-live. Below are typical workstreams for platform teams and programme managers.
+        </p>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Platform &amp; product engineering</h3>
+            <p>
+              Greenfield builds and major refactors: domain modelling, service boundaries, release cadence, and
+              documentation your internal team can inherit. We align naming, events, and data contracts early so
+              integrations do not become an afterthought.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>APIs &amp; integrations</h3>
+            <p>
+              Public and partner-facing APIs, webhook design, idempotency, and connector patterns to processors, banks,
+              and identity vendors. We emphasise trace identifiers, structured errors, and contract tests so regressions
+              surface before production.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Multi-currency &amp; FX in software</h3>
+            <p>
+              Rate sourcing, conversion rules, rounding policies, and ledger postings that stay explainable to finance
+              and auditors. We help you encode cut-offs, holiday calendars, and exception handling without hiding state
+              in ad hoc scripts.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Ledgers, balances &amp; reconciliation</h3>
+            <p>
+              Double-entry or event-sourced designs, balance snapshots, suspense handling, and tooling for ops teams to
+              investigate breaks. The goal is systems that match external statements and your own books without manual
+              spreadsheet bridges.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Compliance-aware workflows</h3>
+            <p>
+              Audit trails, role-based access, segregation of duties hooks, and integration points for KYC and AML
+              tooling where your policy requires them. We do not replace your counsel or MLRO, but we implement controls
+              they can review.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Reliability, security &amp; handover</h3>
+            <p>
+              Hardening passes, observability (metrics, logs, traces), runbooks, and knowledge transfer so your team can
+              operate what we ship. We can pair on incident drills and capacity assumptions before you sign off a launch.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="about" id="about">
-      <div class="container narrow">
+      <div class="wrap-full">
         <h2>About</h2>
         <p>
-          Granpay is built around international B2B needs: multi-currency accounts and wallets, cross-border transfers
-          with transparent FX, and real-time currency exchange when you need to convert and send. Many teams also use
-          card programmes and API-driven flows to automate payouts and collections.
+          Our work sits next to banks, fintechs, and programme managers who need custom routes to market: from early
+          architecture through to hardening, observability, and handover. That can mean core services around balances
+          and conversion, orchestration for cross-border settlement, card and wallet experiences, or automation that
+          fits your compliance story.
         </p>
         <p>
-          Alongside core banking-style rails, we support crypto operations and broader treasury workflows where
-          regulation and risk controls allow, always with KYC/AML discipline and jurisdiction-specific rules in mind.
-          Product availability depends on your entity, location, and onboarding outcome.
+          Crypto-adjacent and treasury-style features are in scope only where regulation, custody, and risk controls are
+          explicit in the mandate. Scope, entity, and jurisdiction always shape what we ship. We help you document
+          assumptions, trace money movement in software, and keep audit-friendly seams between systems.
         </p>
         <p>
-          If you are comparing providers for import/export, e-commerce, fintech, professional services, or real-estate
-          related treasury, start with a short introduction and we will outline what fits your profile.
+          If you are a product owner or CTO comparing build partners for import/export tooling, marketplaces, B2B SaaS
+          with a financial layer, or specialist real-estate treasury software, send a short brief and we will reply with
+          a sensible next step.
         </p>
       </div>
     </section>
 
     <section class="contact" id="contact">
-      <div class="container narrow">
+      <div class="wrap-full">
         <h2>Contact</h2>
         <p class="contact-intro">
-          For onboarding, partnerships, or general enquiries about accounts, payments, and FX.
+          For engineering partnerships, platform builds, integration work, or general product enquiries.
         </p>
         <ul class="contact-list">
           <li>
@@ -81,6 +144,7 @@
       <div class="footer-inner">
         <span class="copyright">© <span id="y"></span> Granpay</span>
         <nav class="footer-nav" aria-label="Footer">
+          <a href="#services">Services</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
