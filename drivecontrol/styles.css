@@ -221,8 +221,8 @@ body.nav-scroll-lock {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: clamp(2rem, 5vw, 3.5rem);
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: clamp(1.5rem, 4vw, 2.5rem);
   align-items: center;
 }
 
@@ -311,7 +311,18 @@ body.nav-scroll-lock {
 
 .media-slot--hero {
   aspect-ratio: 4 / 3;
-  min-height: 14rem;
+  min-height: clamp(16rem, 32vw, 22rem);
+}
+
+.media-slot--illustration {
+  background: linear-gradient(145deg, var(--tone-50) 0%, var(--tone-100) 55%, var(--tone-200) 100%);
+}
+
+.media-slot--illustration img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.18);
 }
 
 .media-slot--showcase {
