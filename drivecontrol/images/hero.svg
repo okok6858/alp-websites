@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Upload hero image to images/hero.jpg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8eef3"/>
+      <stop offset="100%" stop-color="#d4e0ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect x="420" y="340" width="360" height="220" rx="12" fill="#ffffff" opacity="0.7"/>
+  <path d="M480 520 L540 420 L600 480 L660 380 L720 520 Z" fill="#1a7a9e" opacity="0.35"/>
+  <text x="600" y="470" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#5f7385">Hero image</text>
+  <text x="600" y="505" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#5f7385">Replace images/hero.svg</text>
+</svg>

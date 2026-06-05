@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" role="img" aria-label="Upload showcase image to images/showcase.jpg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#eef4f8"/>
+      <stop offset="100%" stop-color="#dde8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#bg2)"/>
+  <rect x="500" y="220" width="600" height="260" rx="12" fill="#ffffff" opacity="0.65"/>
+  <circle cx="720" cy="350" r="70" fill="#d96b2b" opacity="0.2"/>
+  <circle cx="880" cy="350" r="70" fill="#1a7a9e" opacity="0.2"/>
+  <text x="800" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" fill="#5f7385">Showcase image</text>
+  <text x="800" y="375" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#5f7385">Replace images/showcase.svg</text>
+</svg>
